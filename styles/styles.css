@@ -170,18 +170,81 @@ ul li a:hover{
  .skills-2 {
     margin-left: auto;
     margin-right: auto;
-    max-width: 100rem;
+    max-width: 150rem;
     display: flex;
     align-items: center;
     justify-content: center;  
  }
  .skill-list-2{
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 2rem;
     gap: 1.5rem;
     display: flex;
     list-style: none;
     max-width: 100rem;
  }
+ .exp {
+    margin: 3rem 10rem;
+    display: flex;
+    gap: 2.5rem;
+ }
+ .l
+
+.offers {
+    margin-top: 8rem;
+}
+.offers.offers-heading{
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.offers.offers-heading h2{
+    font-size: 3rem;
+}
+.offers.offers-heading h2 span{
+    color: rgb(215, 215, 215);
+}
+.offers .offers-heading span:nth-child(2){
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.offers .offer-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+}
+.offers .offer-list li {
+    flex-basis: 30%;
+    border: 1px solid grey;
+    border-radius: .8rem;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.6rem;
+}
+.offers .offer-list li div{
+    padding: 2rem;
+    background-color: rgba(0, 255, 255, 0.125);
+    border-radius: 100%;
+}
+.offers.offers-list li article h3 {
+    font-size: 1.4rem;
+
+}
+.offers.offers-list li article p {
+    font-size: 1.2rem;
+}
+
+
 
 
 
