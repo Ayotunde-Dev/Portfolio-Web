@@ -139,6 +139,7 @@ html {
     justify-content: center;
     text-align: center;
     max-width: 55rem;
+    font-size: 1.5rem;
   }
   .offerings{
     display: flex;
@@ -160,16 +161,36 @@ html {
   }
   .offerings .offerings-list .our-offer{
     padding: 1rem 1rem;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: .5rem;
     font-size: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 30%; 
+   
   }
   .offerings .offerings-list .our-offer li {
     list-style: none;   
   }
+  .offerings-2 {
+    display: flex;
+    margin: 4rem 15rem;
+    max-width: 150rem;
+   
+  }
+.offerings-2 .offering-list-2 {
+    display: flex;
+    gap: 2rem;
+    max-width: 100%;
+  }
+.offerings-2 .offering-list-2 .our-offer-2 {
+    border: 1px solid grey;
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+   
+  }
+.offerings-2 .offering-list-2 .our-offer-2 li {
+    list-style: none;
+  }
+
   .testimonial {
     padding-top: 4rem;
     display: flex;
